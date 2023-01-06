@@ -1,0 +1,17 @@
+{
+  "name": "node_ex-bis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">="
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristophergaziano/Node_Ex-bis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristophergaziano/Node_Ex-bis/issues"
+  },
+  "homepage": "https://github.com/cristophergaziano/Node_Ex-bis#readme"
+}
