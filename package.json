@@ -1,7 +1,8 @@
 {
   "name": "node_ex-bis",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "task": "echo Doing a task..."
   },
   "engines": {
     "node": ">="
@@ -13,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/cristophergaziano/Node_Ex-bis/issues"
   },
-  "homepage": "https://github.com/cristophergaziano/Node_Ex-bis#readme"
+  "homepage": "https://github.com/cristophergaziano/Node_Ex-bis#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
