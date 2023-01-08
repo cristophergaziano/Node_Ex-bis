@@ -1,18 +1,10 @@
-import express from "express";
-import "express-async-errors";
+import app from "./app";
 
-const app = express();
-
-app.get("/", (request, response) => {
-    response.send("Il server è online");
-});
-
-const port = 3000;
+const port = 3001;
 
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
 });
-
 
 // Use the techniques you've learnt so far to create your own HTTP server with Express. Your server should:
 
